@@ -19,7 +19,6 @@ v23<-rast("v23.jpg")
 v23f<-rast("v23f.jpg")
 
 ##le importo e le assegno ad un oggetto 
-##il warning è dovuto alla mancata georeferenziazione
 
 ##dopo aver importato l'immagine per visualizzarla uso la funzione plot() del pacchetto terra mettendo tra  parentesi tonde il nome dell'oggetto a cui ho assegnato l’immagine
 
@@ -174,7 +173,7 @@ dev.off()
 
 ##conclusioni finali
 ##copertura forestale calata di valori non elevati (3% circa)
-##NDVI nel complesso leggermente calato
+##NDVI nel complesso no variazioni significative
 
 ##misura della variabilità/eterogeneità dello spazio con metodo moving window 
 
