@@ -1,4 +1,15 @@
-#questo codice è stato scritto utilizzando i seguenti pacchetti prima installati.
+#codice per l'analisi di cambiamenti ambientali nella zona di Villabassa in Val Pusteria(BZ)
+##questo codice è stato scritto utilizzando i seguenti pacchetti prima installati
+###installato i seguenti pacchetti, eccetto imageRy, dal CRAN con la funzione install.packages(""), il pacchetto va inserito tra virgolette
+####imageRy è stato installato da GitHub con la funzione install_github per cui serve il pacchetto devtools installato dal CRAN
+
+#install.packages("terra")
+#install.packages("devtools")
+#library(devtools)
+#devtools::install_github("duccioroccchini/imageRy)
+#install.packages("ggplot2")
+#install.packages("patchwork")
+#install.packages("viridis")
 
 library(terra)   ##pacchetto R specializzato in metodi per l'analisi di dati spaziali
 library(imageRy)  ##pacchetto R specializzato nella manipolazione e condivisione di immagini raster 
@@ -7,7 +18,7 @@ library(patchwork)  ##pacchetto R specializzato nella composizioni di più grafi
 library(viridis) ##pacchetto R per l’utilizzo di palette di colori Colorblind-Friendly
 
 ##dopo aver installato i pacchetti questi si richiamano con la funzione library() oppure con la funzione require()
-##non vanno messe le virgolette con la funzione library perché sono già dentro ad R dato che il pacchetto è stato installato
+##non vanno messe le virgolette con la funzione library perché sono già dentro ad R dato che il pacchetto è già stato installato
 
 setwd("/Users/benedettaterzi/Library/CloudStorage/OneDrive-AlmaMaterStudiorumUniversitàdiBologna/Documents/R") ##uso questa funzione set working directory per impostare la directory 
 
