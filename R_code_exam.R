@@ -1,6 +1,6 @@
 # codice per l'analisi di cambiamenti ambientali nella zona di Villabassa in Val Pusteria(BZ)
 # questo codice è stato scritto utilizzando i seguenti pacchetti prima installati
-# installato i seguenti pacchetti, eccetto imageRy, dal CRAN con la funzione install.packages(""), il pacchetto va inserito tra virgolette
+# installato i seguenti pacchetti, eccetto imageRy, dal CRAN con la funzione install.packages(), il pacchetto va inserito tra virgolette
 # imageRy è stato installato da GitHub con la funzione install_github per cui serve il pacchetto devtools installato dal CRAN
 
 # install.packages("terra")
@@ -20,7 +20,7 @@ library(viridis) # pacchetto R per l’utilizzo di palette di colori Colorblind-
 # dopo aver installato i pacchetti questi si richiamano con la funzione library() oppure con la funzione require()
 # non vanno messe le virgolette con la funzione library perché sono già dentro ad R dato che il pacchetto è già stato installato
 
-setwd("/Users/benedettaterzi/Library/CloudStorage/OneDrive-AlmaMaterStudiorumUniversitàdiBologna/Documents/R") ##uso questa funzione set working directory per impostare la directory 
+setwd("/Users/benedettaterzi/Library/CloudStorage/OneDrive-AlmaMaterStudiorumUniversitàdiBologna/Documents/R") # uso questa funzione set working directory per impostare la directory 
 
 # ora importo immagini dall'esterno ovvero dalla directory usando la funzione rast() del pacchetto terra
 
@@ -189,8 +189,8 @@ dev.off()
 
 # misura della variabilità/eterogeneità dello spazio con metodo moving window 
 # si calcola su una variabile la variabilità, quindi su una banda, in questo caso la calcolo sulla banda nir
-nir15<-band15[[4]] ## assegno la banda nir, la quarta, ad un oggetto
-sd3nir15<-focal(nir15,matrix(1/9,3,3), fun=sd) ##uso la funzione focal()
+nir15<-band15[[4]] # assegno la banda nir, la quarta, ad un oggetto
+sd3nir15<-focal(nir15,matrix(1/9,3,3), fun=sd) # uso la funzione focal()
 
 # focal() mi permette di calcolare la variabilità, definisco la matrice (la finestra) in questo caso 9 pixel disposti 3x3 pixel e anche la statistica che uso in questo caso fun=sd (function = standard deviation)
 # la dimensione della finestra la scelgo io 
