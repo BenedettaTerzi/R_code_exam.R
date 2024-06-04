@@ -6,7 +6,7 @@
 #install.packages("terra")
 #install.packages("devtools")
 #library(devtools)
-#devtools::install_github("duccioroccchini/imageRy)
+#devtools::install_github("duccioroccchini/imageRy")
 #install.packages("ggplot2")
 #install.packages("patchwork")
 #install.packages("viridis")
