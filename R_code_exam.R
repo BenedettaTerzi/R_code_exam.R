@@ -114,7 +114,7 @@ datav <- data.frame(
      classe = c("uomo", "foresta", "uomo", "foresta"),
      valori = c(35.5, 64.5, 38.1, 61.9))
  
-# creazione del grafico a barre con ggplot2
+# creazione del grafico con la funzione ggplot() del pacchetto ggplot2
 ggplot(datav, aes(x = as.factor(anno), y = valori, fill = classe)) +
      geom_bar(stat = "identity", position = "dodge") +
      labs(title = "Distribuzione classi per anno",
