@@ -1,5 +1,5 @@
 # codice per l'analisi di cambiamenti ambientali nella zona di Villabassa in Val Pusteria(BZ)
-# questo codice è stato scritto utilizzando i seguenti pacchetti prima installati
+# questo codice è stato scritto utilizzando i seguenti pacchetti
 # installato i seguenti pacchetti, eccetto imageRy, dal CRAN con la funzione install.packages(), il pacchetto va inserito tra virgolette
 # imageRy è stato installato da GitHub con la funzione install_github per cui serve il pacchetto devtools installato dal CRAN
 
