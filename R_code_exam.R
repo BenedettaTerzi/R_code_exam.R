@@ -17,7 +17,7 @@ library(ggplot2)   # pacchetto R specializzato nella creazione di grafici
 library(patchwork)  # pacchetto R specializzato nella composizioni di più grafici
 library(viridis) # pacchetto R per l’utilizzo di palette di colori Colorblind-Friendly
 
-# dopo aver installato i pacchetti questi si richiamano con la funzione library() oppure con la funzione require()
+# dopo aver installato i pacchetti questi si richiamano con la funzione library()
 # non vanno messe le virgolette con la funzione library perché sono già dentro ad R dato che il pacchetto è già stato installato
 
 setwd("/Users/benedettaterzi/Library/CloudStorage/OneDrive-AlmaMaterStudiorumUniversitàdiBologna/Documents/R") # uso questa funzione set working directory per impostare la directory 
