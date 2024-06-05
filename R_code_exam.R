@@ -44,7 +44,7 @@ plot(v23f)
 
 dev.off()
 
-# utilizzo due immagini per lo stesso anno siccome l’immagine «true colors» ha le bande R,G e B e in quella «false colors» nir, R e G.
+# utilizzo due immagini per lo stesso anno siccome l’immagine «true colors» ha le bande R,G e B e quella «false colors» nir, R e G.
 # assegno le tre bande R G e B dalla prima immagine e la banda nir dalla seconda immagine a degli oggetti poi unisco le quattro bande
 
 br15<-v15[[1]]  # banda del rosso
