@@ -96,16 +96,18 @@ dev.off()
 
 f15<-freq(band15c) # calcolo della frequenza di ciascun cluster (classe) ottenuto dalla classificazione
 tot15<-ncell(band15c) # calcolo del numero totale di celle (pixel)
-prop15=f15/tot15 # calcolo della proporzione delle classi
-perc15=prop15*100 # calcolo della percentuale delle classi 
 
 f23<-freq(band23c) 
 tot23<-ncell(band23c)
-prop23=f23/tot23
-perc23=prop23*100
 
 tot15
 tot23 # numero di pixel totale è lo stesso 
+
+prop15=f15/tot15 # calcolo della proporzione delle classi
+perc15=prop15*100 # calcolo della percentuale delle classi 
+
+prop23=f23/tot23
+perc23=prop23*100
 
 # creazione del dataframe con i dati
 datav<-data.frame( anno = c(2015, 2015, 2023, 2023), classe = c("uomo", "foresta", "uomo", "foresta"), valori = c(35.5, 64.5, 38.1, 61.9))
