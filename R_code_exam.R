@@ -109,7 +109,7 @@ perc15=prop15*100 # calcolo della percentuale delle classi
 prop23=f23/tot23
 perc23=prop23*100
 
-# creazione del dataframe con i dati
+# creazione del dataframe con i le classi e le percentuali prima calcolate
 datav<-data.frame( anno = c(2015, 2015, 2023, 2023), classe = c("uomo", "foresta", "uomo", "foresta"), valori = c(35.5, 64.5, 38.1, 61.9))
 
 # creazione del grafico con la funzione ggplot() del pacchetto ggplot2
