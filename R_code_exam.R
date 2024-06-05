@@ -182,8 +182,8 @@ dev.off()
 # copertura forestale calata di valori non elevati (3% circa)
 # NDVI nel complesso no variazioni significative
 
-# misura della variabilità/eterogeneità dello spazio con metodo moving window 
-# si calcola su una variabile la variabilità, quindi su una banda, in questo caso la calcolo sulla banda nir
+# misura della variabilità dello spazio con metodo moving window 
+# si calcola su una variabile la variabilità, ad esempio su una banda, in questo caso la calcolo sulla banda nir
 nir15<-band15[[4]] # assegno la banda nir, la quarta, ad un oggetto
 sd3nir15<-focal(nir15,matrix(1/9,3,3), fun=sd) # uso la funzione focal()
 
