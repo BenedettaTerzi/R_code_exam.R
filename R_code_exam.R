@@ -23,6 +23,7 @@ library(viridis) # pacchetto R per l’utilizzo di palette di colori Colorblind-
 setwd("/Users/benedettaterzi/Library/CloudStorage/OneDrive-AlmaMaterStudiorumUniversitàdiBologna/Documents/R") # uso questa funzione set working directory per impostare la directory 
 
 # ora importo immagini dall'esterno ovvero dalla directory usando la funzione rast() del pacchetto terra
+# quattro immagini scaricate da Copernicus sentinel-2
 
 v15<-rast("v15.jpg") # colori naturali, bande R G e B
 v15f<-rast("v15f.jpg") # colori falsi, bande nir R e G
